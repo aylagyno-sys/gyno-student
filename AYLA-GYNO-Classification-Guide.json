@@ -1,0 +1,985 @@
+{
+  "schemaVersion": 1,
+  "app": "AYLA GYNO",
+  "bankId": "ayla-gyno",
+  "appVersion": "1.0.1",
+  "sourceBook": {
+    "id": "dewhurst_9e",
+    "name": "Dewhurst’s Textbook of Obstetrics & Gynaecology, 9th edition"
+  },
+  "generatedAt": "2026-10-26T22:53:59.394Z",
+  "instructions": [
+    "Return one JSON file containing all extracted MCQs; do not split the result into separate subject or chapter files.",
+    "Select subject, chapter and topic only from a single listed branch, using its exact spelling.",
+    "General is the application's built-in fallback topic; do not invent new classifications.",
+    "When no specific branch fits confidently, use Uncategorized / General / General and report the question for review."
+  ],
+  "classifications": [
+    {
+      "subject": "Gynaecology",
+      "chapters": [
+        {
+          "chapter": "34 Clinical Anatomy of the Pelvis and Reproductive Tract",
+          "topics": [
+            "Bony pelvis",
+            "Epithelium of the genital tract",
+            "General",
+            "Pelvic floor",
+            "Pelvic organs (Fig. 34.11)",
+            "Surface anatomy",
+            "The anterior abdominal wall",
+            "The clitoris",
+            "The peritoneum",
+            "The umbilicus",
+            "Vulva"
+          ]
+        },
+        {
+          "chapter": "35 Normal and Abnormal Development of the Genital Tract",
+          "topics": [
+            "Development of the genital organs",
+            "Disorders of sexual development",
+            "General",
+            "Other anatomical anomalies",
+            "XY females"
+          ]
+        },
+        {
+          "chapter": "36 Role of Imaging in Gynaecology",
+          "topics": [
+            "General",
+            "Imaging in common gynaecological conditions",
+            "Ultrasound techniques"
+          ]
+        },
+        {
+          "chapter": "37 Ambulatory Gynaecology, Hysteroscopy and Laparoscopy",
+          "topics": [
+            "Diagnostic hysteroscopy",
+            "Diagnostic laparoscopy",
+            "Equipment common to hysteroscopy and laparoscopy",
+            "Equipment for hysteroscopy",
+            "Equipment for laparoscopy",
+            "General",
+            "Operating theatre organization",
+            "Operative hysteroscopy",
+            "Operative laparoscopy",
+            "Training in endoscopic surgery"
+          ]
+        },
+        {
+          "chapter": "38 Puberty and Its Disorders",
+          "topics": [
+            "Aetiology of primary amenorrhoea",
+            "Control of the onset of puberty",
+            "Delayed puberty",
+            "General",
+            "Physical changes of puberty",
+            "Precocious puberty"
+          ]
+        },
+        {
+          "chapter": "39 Gynaecological Disorders of Childhood and Adolescence",
+          "topics": [
+            "Adolescence",
+            "General",
+            "Prepubertal child"
+          ]
+        },
+        {
+          "chapter": "40 Spontaneous Miscarriage",
+          "topics": [
+            "Aetiology",
+            "Definition",
+            "Diagnosis",
+            "General",
+            "Management",
+            "Psychology and counselling",
+            "Rhesus status"
+          ]
+        },
+        {
+          "chapter": "41 Recurrent Miscarriage",
+          "topics": [
+            "Anatomical factors",
+            "Definition",
+            "Endocrinological factors",
+            "Endometrial factors",
+            "Epidemiology",
+            "General",
+            "Idiopathic recurrent miscarriage",
+            "Immunological factors",
+            "Other associated factors and their management",
+            "Prothrombotic factors",
+            "Structural genetic factors"
+          ]
+        },
+        {
+          "chapter": "42 Gestational Trophoblast Neoplasia",
+          "topics": [
+            "Classification, demographics and risk factors",
+            "General",
+            "Malignant pathology and presentation",
+            "Personal and psychological issues",
+            "Premalignant pathology and presentation",
+            "Prognostic factors and treatment groups"
+          ]
+        },
+        {
+          "chapter": "43 Ectopic Pregnancy",
+          "topics": [
+            "Diagnosis",
+            "General",
+            "Management",
+            "Risk factors",
+            "Types of ectopic pregnancy"
+          ]
+        },
+        {
+          "chapter": "44 Induced abortion",
+          "topics": [
+            "Aftercare",
+            "Assessment for abortion",
+            "Choice of method",
+            "General",
+            "Medical abortion",
+            "Surgical abortion",
+            "The law and abortion"
+          ]
+        },
+        {
+          "chapter": "45 Acute Pelvic Infection",
+          "topics": [
+            "Clinical presentation",
+            "Epidemiology and risk factors",
+            "General",
+            "Investigation",
+            "Microbiology",
+            "Prevention",
+            "Prognosis",
+            "Special circumstances",
+            "Treatment"
+          ]
+        },
+        {
+          "chapter": "46 The Menstrual Cycle",
+          "topics": [
+            "General",
+            "Menstruation",
+            "Step one: ensuring mono‐ovulation",
+            "Step two: ensuring maintenance of very early pregnancy"
+          ]
+        },
+        {
+          "chapter": "47 Polycystic Ovary Syndrome and Secondary Amenorrhoea",
+          "topics": [
+            "Defining polycystic ovary syndrome and secondary amenorrhoea",
+            "Examination and investigation of patients with polycystic ovary syndrome and secondary amenorrhoea",
+            "General",
+            "Polycystic ovary syndrome",
+            "Secondary amenorrhoea"
+          ]
+        },
+        {
+          "chapter": "48 Heavy Menstrual Bleeding",
+          "topics": [
+            "Aetiology",
+            "Clinical evaluation",
+            "Definition",
+            "General",
+            "Management",
+            "Prevalence and impact",
+            "Severe acute heavy menstrual bleeding"
+          ]
+        },
+        {
+          "chapter": "49 Premenstrual Syndrome",
+          "topics": [
+            "Aetiology",
+            "Definitions",
+            "Diagnosis",
+            "General",
+            "Symptoms and classification of PMS",
+            "Treatment"
+          ]
+        },
+        {
+          "chapter": "50 Menopause and Postmenopausal Health",
+          "topics": [
+            "Advances in prediction of menopause",
+            "Consequences of the menopause",
+            "Future research",
+            "General",
+            "Interventions",
+            "Patient assessment and ongoing monitoring",
+            "Premature ovarian insufficiency"
+          ]
+        },
+        {
+          "chapter": "51 Subfertility",
+          "topics": [
+            "Aetiology",
+            "Definition: what is infertility?",
+            "Funding",
+            "General",
+            "Importance",
+            "Principles of management",
+            "Prognosis"
+          ]
+        },
+        {
+          "chapter": "52 Assisted Reproduction",
+          "topics": [
+            "Complications of assisted conception",
+            "General",
+            "Investigations prior to assisted conception",
+            "Results",
+            "Types of assisted conception"
+          ]
+        },
+        {
+          "chapter": "53 Endometriosis",
+          "topics": [
+            "Classification systems",
+            "Diagnosis",
+            "Endometriosis phenotypes at laparoscopy",
+            "Epidemiology",
+            "General",
+            "General treatment issues",
+            "Natural history of endometriosis and associated comorbidities",
+            "Ongoing research",
+            "Symptoms of endometriosis",
+            "Treatment aims",
+            "Treatment for women with endometriosis‐related infertility",
+            "Treatment for women with symptoms such as pain related to endometriosis"
+          ]
+        },
+        {
+          "chapter": "54 Chronic Pelvic Pain",
+          "topics": [
+            "Clinical history",
+            "Examination",
+            "General",
+            "Hysteroscopic sterilization",
+            "Investigations",
+            "Management",
+            "Myofascial pain",
+            "Pelvic congestion syndrome"
+          ]
+        },
+        {
+          "chapter": "55 Uterovaginal Prolapse",
+          "topics": [
+            "Aetiology",
+            "Clinical presentation",
+            "Evaluation",
+            "General",
+            "Incidence and epidemiology",
+            "Investigation",
+            "Management",
+            "Pelvic anatomy",
+            "The future"
+          ]
+        },
+        {
+          "chapter": "56 Urinary Incontinence",
+          "topics": [
+            "Causes of urinary incontinence",
+            "Clinical presentation of urinary incontinence",
+            "Detrusor overactivity",
+            "Fistulae",
+            "General",
+            "General conservative measures",
+            "Investigations",
+            "Mixed incontinence",
+            "Oestrogens in the management of incontinence",
+            "Other lower urinary tract disorders",
+            "Retention with overflow",
+            "Urethral diverticulum",
+            "Urodynamic stress incontinence"
+          ]
+        },
+        {
+          "chapter": "57 Benign Diseases of the Vulva",
+          "topics": [
+            "Benign tumours",
+            "Bullous diseases",
+            "Disorders of lymphatics",
+            "Disorders of pigmentation",
+            "Examination",
+            "General",
+            "History‐taking",
+            "Inflammatory diseases of the vulva",
+            "Investigations",
+            "Manifestations of underlying disease",
+            "Vascular lesions",
+            "Vulval ulceration"
+          ]
+        },
+        {
+          "chapter": "58 Benign Diseases of the Vagina, Cervix and Ovary",
+          "topics": [
+            "Cervix",
+            "General",
+            "Ovaries",
+            "Vagina"
+          ]
+        },
+        {
+          "chapter": "59 Benign Disease of the Uterus",
+          "topics": [
+            "Adenomyosis",
+            "Endometrial polyps",
+            "General",
+            "Uterine leiomyomata (fibroids)"
+          ]
+        },
+        {
+          "chapter": "60 Malignant Disease of the Vulva and the Vagina",
+          "topics": [
+            "Aetiology",
+            "Assessment",
+            "Background",
+            "Complications of surgical treatment",
+            "General",
+            "Histology",
+            "Management of the lymph nodes",
+            "Presentation",
+            "Radiotherapy and chemotherapy",
+            "Recurrent disease",
+            "Risk factors",
+            "Surgical management of the primary vulvar lesion",
+            "Uncommon vaginal tumours",
+            "Vaginal cancer"
+          ]
+        },
+        {
+          "chapter": "61 Premalignant and Malignant Disease of the Cervix",
+          "topics": [
+            "General",
+            "Malignant disease of the cervix",
+            "Premalignant disease of the cervix"
+          ]
+        },
+        {
+          "chapter": "62 Endometrial Cancer",
+          "topics": [
+            "Aetiology",
+            "Clinical presentation",
+            "General",
+            "Management",
+            "Relapsed endometrial cancer",
+            "Types of endometrial cancer"
+          ]
+        },
+        {
+          "chapter": "63 Surgical and Medical Management of Epithelial Ovarian Cancer",
+          "topics": [
+            "Advanced ovarian cancer",
+            "Aetiology, epidemiology and genetics",
+            "CA125: ovarian cancer tumour marker",
+            "Clinical presentation",
+            "EOC precursor lesions",
+            "Future developments",
+            "General",
+            "Histopathological diagnosis of EOC",
+            "Patterns of spread of ovarian cancer",
+            "Prognostic factors",
+            "Recurrent ovarian cancer",
+            "Screening and prophylactic oophorectomy",
+            "Staging of EOC",
+            "Subclassification of ovarian cancer",
+            "The BRCA‐positive patient",
+            "Treatment of newly diagnosed ovarian cancer"
+          ]
+        },
+        {
+          "chapter": "64 Sexually Transmitted Infections",
+          "topics": [
+            "Chlamydia",
+            "Diagnostic advances",
+            "Epidemiology",
+            "General",
+            "Genital herpes",
+            "Genital warts",
+            "Gonorrhoea",
+            "Integrated approach to STIs in gynaecology",
+            "Mycoplasma genitalium",
+            "Recurrent vulvo‐vaginal infections",
+            "STI in pregnancy",
+            "Syphilis",
+            "Trichomoniasis"
+          ]
+        },
+        {
+          "chapter": "65 Contraception and Sterilization",
+          "topics": [
+            "Barrier methods",
+            "Combined hormonal contraception",
+            "Contraceptive choice",
+            "Effectiveness",
+            "Emergency contraception",
+            "Female sterilization",
+            "Fertility awareness methods",
+            "General",
+            "Intrauterine contraception",
+            "Lactational amenorrhoea method",
+            "Medical eligibility for contraception",
+            "Non‐contraceptive benefits of contraception",
+            "Progestogen‐only contraception"
+          ]
+        },
+        {
+          "chapter": "66 Sexual Dysfunction",
+          "topics": [
+            "Changing attitudes towards sex",
+            "General",
+            "Genitopelvic pain/penetration disorder",
+            "Orgasmic disorder",
+            "Overview of psychosocial and psychosexual interventions",
+            "Physical factors contributing to sexual well‐being",
+            "Psychosocial and psychosexual factors contributing to sexual well‐being",
+            "Sexual arousal disorder",
+            "Sexual desire disorder",
+            "Sexual diversity",
+            "Sexual dysfunction",
+            "Sexual response: anatomy and physiology",
+            "Sexual response: models of sexual function"
+          ]
+        },
+        {
+          "chapter": "67 Rape and Sexual Assault and Female Genital Mutilation",
+          "topics": [
+            "Capacity and consent",
+            "Child sexual exploitation",
+            "Domestic violence",
+            "Emergency contraception",
+            "Examination",
+            "Female genital mutilation",
+            "General",
+            "Giving evidence in court",
+            "History",
+            "Honour‐based crimes",
+            "Long‐term health consequences of sexual violence",
+            "Management of a victim who presents acutely",
+            "Post‐exposure prophylaxis following sexual exposure",
+            "Presentation",
+            "Prevalence",
+            "Safeguarding",
+            "Statements",
+            "The Law",
+            "Vicarious trauma"
+          ]
+        },
+        {
+          "chapter": "68 Ethical Dilemmas in Obstetrics and Gynaecology",
+          "topics": [
+            "Abortion",
+            "Fertility treatment",
+            "General",
+            "The management of pregnancy and childbirth"
+          ]
+        },
+        {
+          "chapter": "69 The Law and the Obstetrician and Gynaecologist",
+          "topics": [
+            "Abortion",
+            "Cerebral palsy",
+            "General",
+            "Postgraduate training",
+            "Professional discipline",
+            "The rise of autonomy"
+          ]
+        },
+        {
+          "chapter": "70 Evidence‐based Medicine in Obstetrics and Gynaecology",
+          "topics": [
+            "General",
+            "Practical evidence‐based medicine"
+          ]
+        },
+        {
+          "chapter": "General",
+          "topics": [
+            "General"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Obstetrics",
+      "chapters": [
+        {
+          "chapter": "1 Maternal Physiology",
+          "topics": [
+            "Endocrine systems",
+            "Energy requirements",
+            "General",
+            "Haematology",
+            "Maternal response to pregnancy",
+            "The cardiovascular system",
+            "The cerebral circulation",
+            "The gastrointestinal system",
+            "The renal system",
+            "The respiratory system",
+            "The uterus"
+          ]
+        },
+        {
+          "chapter": "2 The Placenta and Fetal Membranes",
+          "topics": [
+            "Basic structure of villi",
+            "Fetal membranes",
+            "General",
+            "Macroscopic features of the term placenta",
+            "Placental development",
+            "Structural characteristics of the human placenta",
+            "Ultrasound"
+          ]
+        },
+        {
+          "chapter": "3 Healthy Fetal Growth",
+          "topics": [
+            "Comparing the measurement to a standard or reference",
+            "Estimation of gestational age",
+            "General",
+            "International standards of fetal growth and newborn size",
+            "Measurement of the fetus"
+          ]
+        },
+        {
+          "chapter": "4 Pre‐conception Counselling",
+          "topics": [
+            "Advice regarding access to maternity care",
+            "Advice regarding medications",
+            "Advice related to maternal age",
+            "Conditions where pregnancy is not recommended",
+            "General",
+            "General pre‐conception advice",
+            "Genetic counselling",
+            "Healthcare professionals who should undertake pre‐conception counselling",
+            "Previous poor obstetric history",
+            "Purpose of pre‐conception counselling",
+            "Specific medical diseases",
+            "Timing of pre‐conception counselling",
+            "Who needs pre‐conception counselling?"
+          ]
+        },
+        {
+          "chapter": "5 Antenatal Care",
+          "topics": [
+            "Aims of antenatal care",
+            "General",
+            "Organization of antenatal care",
+            "Screening for fetal complications",
+            "Screening for maternal complications"
+          ]
+        },
+        {
+          "chapter": "6 First Trimester Antenatal Screening",
+          "topics": [
+            "Diagnostic tests",
+            "First‐trimester Down’s syndrome screening",
+            "First‐trimester screening of aneuploidies other than Down’s syndrome",
+            "First‐trimester screening of fetal structural anomalies",
+            "First‐trimester screening of late obstetric complications",
+            "First‐trimester screening of single gene disorders",
+            "General",
+            "Non‐invasive prenatal testing"
+          ]
+        },
+        {
+          "chapter": "7 Hypertensive Disorders",
+          "topics": [
+            "Chronic hypertension",
+            "Defining hypertensive disease in pregnancy",
+            "General",
+            "Gestational hypertension",
+            "Measuring blood pressure and proteinuria in pregnancy and pre‐eclampsia",
+            "Pathophysiology",
+            "Postnatal management",
+            "Pre‐eclampsia",
+            "Risk assessment and risk reduction"
+          ]
+        },
+        {
+          "chapter": "8 Heart Disease in Pregnancy",
+          "topics": [
+            "Arrhythmias",
+            "Cardiac arrest",
+            "Cardiac investigations in pregnancy",
+            "Coronary artery disease",
+            "Endocarditis prophylaxis",
+            "General",
+            "General considerations in pregnant women with heart disease",
+            "Hypertrophic cardiomyopathy",
+            "Mechanical heart valves",
+            "Peripartum cardiomyopathy",
+            "Physiological adaptations to pregnancy, labour and delivery",
+            "Specific cardiac conditions"
+          ]
+        },
+        {
+          "chapter": "9 Diabetes in Pregnancy",
+          "topics": [
+            "Birth",
+            "Classification of diabetes in pregnancy",
+            "Diagnosing diabetes and gestational diabetes",
+            "General",
+            "Managing diabetes in pregnancy",
+            "Neonatal and longer‐term consequences of a diabetic pregnancy",
+            "Postpartum care",
+            "Risks to the fetus of a diabetic pregnancy",
+            "Screening for diabetic complications",
+            "Screening for non‐diabetic comorbidities",
+            "The management of gestational diabetes",
+            "The principles of maternal glycaemic control",
+            "The significance of maternal type of diabetes"
+          ]
+        },
+        {
+          "chapter": "10 Liver and Endocrine Diseases in Pregnancy",
+          "topics": [
+            "Adrenal disease",
+            "Approach to the patient with suspected liver disease in pregnancy",
+            "ENDOCRINE DISORDERS IN PREGNANCY",
+            "General",
+            "Investigation of liver disease in pregnancy",
+            "LIVER DISEASE IN PREGNANCY",
+            "Liver diseases incidental to pregnancy",
+            "Normal physiological changes in pregnancy",
+            "Parathyroid disease",
+            "Pituitary disease",
+            "Pregnancy following liver transplantation",
+            "Pregnancy‐related liver disease",
+            "Thyroid disease"
+          ]
+        },
+        {
+          "chapter": "11 Renal Disease",
+          "topics": [
+            "Chronic kidney disease",
+            "General",
+            "Kidney transplant recipients",
+            "Normal pregnancy",
+            "Patients on dialysis",
+            "Pre‐pregnancy assessment"
+          ]
+        },
+        {
+          "chapter": "12 Haematological Problems in Pregnancy",
+          "topics": [
+            "Anaemia in pregnancy",
+            "Fetal/neonatal thrombocytopenia",
+            "General",
+            "Haematological malignancy during pregnancy",
+            "Haemostatic measures in obstetric haemorrhage",
+            "Inherited bleeding disorders",
+            "Myeloproliferative disorders in pregnancy",
+            "Physiological changes to the blood in pregnancy",
+            "Prevention of haemolytic disease of the fetus and newborn",
+            "Sickle cell disorders",
+            "Thalassaemia",
+            "Thrombocytopenia in pregnancy",
+            "Thrombosis and thromboembolism"
+          ]
+        },
+        {
+          "chapter": "13 Maternal Infection During Pregnancy",
+          "topics": [
+            "Cytomegalovirus",
+            "General",
+            "Hepatitis B",
+            "Herpesvirus",
+            "Human immunodeficiency virus",
+            "Parvovirus B19",
+            "Rubella",
+            "Syphilis",
+            "Toxoplasmosis",
+            "Varicella‐zoster virus",
+            "Zika virus"
+          ]
+        },
+        {
+          "chapter": "14 Psychiatric Problems in Pregnancy and Post Partum",
+          "topics": [
+            "Antidepressant medications during pregnancy",
+            "Antipsychotics",
+            "Anxiety disorders",
+            "Benzodiazepines",
+            "Bipolar disorder",
+            "Breastfeeding and antidepressants",
+            "Breastfeeding and mood stabilizers and antipsychotics",
+            "Depression during pregnancy",
+            "Effects of untreated prenatal depression, anxiety and stress",
+            "General",
+            "Mood stabilizers",
+            "Non‐pharmacological treatments",
+            "Postpartum blues",
+            "Postpartum depression",
+            "Psychotic disorders and postpartum psychosis"
+          ]
+        },
+        {
+          "chapter": "15 Autoimmune Rheumatic Diseases and Other Medical Disorders in Pregnancy",
+          "topics": [
+            "Acute abdominal complications",
+            "Background",
+            "Ehlers–Danlos syndrome types III and IV",
+            "General",
+            "Imaging in pregnancy",
+            "Malignant disease",
+            "Neurological conditions",
+            "Respiratory disorders",
+            "Rheumatoid arthritis and other inflammatory arthritides",
+            "Scleroderma and other connective tissue diseases",
+            "Systemic lupus erythematosus",
+            "Vasculitides in pregnancy"
+          ]
+        },
+        {
+          "chapter": "16 Obesity and Pregnancy",
+          "topics": [
+            "Contraception, fertility and conception",
+            "Delivery issues",
+            "Fetal complications: ultrasound, anomalies and intrauterine demise",
+            "General",
+            "Interventions",
+            "Maternal complications: gestational diabetes, pre‐eclampsia and pregnancy‐induced hypertension",
+            "Postnatal care",
+            "Pre‐pregnancy consultation"
+          ]
+        },
+        {
+          "chapter": "17 Fetal Growth Restriction",
+          "topics": [
+            "Assessment and investigation",
+            "Consequences of growth restriction",
+            "Definition",
+            "General",
+            "Monitoring SGA",
+            "Regulation of fetal growth",
+            "Timing of delivery"
+          ]
+        },
+        {
+          "chapter": "18 Third Trimester Fetal Assessment",
+          "topics": [
+            "General",
+            "Identifying placenta praevia, placenta accreta, vasa praevia and uterine scar",
+            "Predicting fetal macrosomia, risk of failure to progress and shoulder dystocia in labour",
+            "Predicting intrauterine growth restriction and intrapartum fetal hypoxia",
+            "Predicting preterm birth"
+          ]
+        },
+        {
+          "chapter": "19 Fetal Medical Conditions",
+          "topics": [
+            "Congenital adrenal hyperplasia",
+            "Fetal anaemia",
+            "Fetal and neonatal alloimmune thrombocytopenia",
+            "Fetal dysrhythmias",
+            "Fetal thyroid function",
+            "General"
+          ]
+        },
+        {
+          "chapter": "20 Fetal Anomalies",
+          "topics": [
+            "Fetal hydrops [37,38]",
+            "Fetal tumours",
+            "General",
+            "Selected fetal anomalies in specific organ systems",
+            "Timing and development of fetal malformations"
+          ]
+        },
+        {
+          "chapter": "21 Multiple Pregnancy",
+          "topics": [
+            "Chorionicity and zygosity",
+            "Complications of monochorionic twinning",
+            "General",
+            "Higher‐order multiples",
+            "Incidence",
+            "Intrauterine growth restriction",
+            "Labour and delivery of twins and multiple pregnancies",
+            "Maternal homeostatic responses",
+            "Miscarriage",
+            "Perinatal loss",
+            "Prenatal diagnosis",
+            "Preterm labour"
+          ]
+        },
+        {
+          "chapter": "22 Normal Mechanisms in Labour",
+          "topics": [
+            "General",
+            "Management of uncomplicated labour and delivery",
+            "Mechanics of normal labour at term",
+            "Parturition"
+          ]
+        },
+        {
+          "chapter": "23 Post‐term Pregnancy",
+          "topics": [
+            "Aetiology",
+            "Clinical guidelines for management of post‐term pregnancy",
+            "Definitions",
+            "Epidemiology",
+            "General",
+            "Incidence",
+            "Management",
+            "Post‐term pregnancy and home birth",
+            "Practical management of post‐term pregnancy",
+            "Risks associated with post‐term pregnancy",
+            "Women’s views of induction for post‐term pregnancy"
+          ]
+        },
+        {
+          "chapter": "24 Induction and Augmentation of Labour",
+          "topics": [
+            "Augmentation of labour",
+            "Complications of induction of labour",
+            "Contraindications to induction of labour",
+            "Definition",
+            "General",
+            "Indications for induction of labour",
+            "Induction of labour at term (>37 weeks’ gestation): risks and benefits",
+            "Monitoring and setting during induction of labour",
+            "Pharmacological and mechanical methods of induction of labour",
+            "Predicting success of induction of labour"
+          ]
+        },
+        {
+          "chapter": "25 Obstetric Emergencies",
+          "topics": [
+            "Collapse",
+            "Emergency obstetric deliveries",
+            "General",
+            "General principles for minimizing adverse consequences resulting from an emergency",
+            "General principles for minimizing the risk of an emergency occurring",
+            "Haemorrhage",
+            "Obstetric causes of collapse"
+          ]
+        },
+        {
+          "chapter": "26 Malpresentation, Malposition, Cephalopelvic Disproportion and Obstetric Procedures",
+          "topics": [
+            "Caesarean section",
+            "Episiotomy and perineal lacerations",
+            "General",
+            "Instrumental vaginal deliveries",
+            "Malpresentation, malposition and cephalopelvic disproportion"
+          ]
+        },
+        {
+          "chapter": "27 Fetal Monitoring During Labour",
+          "topics": [
+            "Detecting the fetus with hypoxia",
+            "Fetal physiology",
+            "General",
+            "Labour",
+            "The future"
+          ]
+        },
+        {
+          "chapter": "28 Preterm Labour",
+          "topics": [
+            "Causes of preterm labour",
+            "Endocrinology and biochemistry of labour",
+            "Epidemiology",
+            "General",
+            "Management of inevitable preterm delivery",
+            "Management of symptomatic preterm labour",
+            "Neonatal outcomes after preterm birth",
+            "Prediction of preterm labour",
+            "Preterm pre‐labour rupture of membranes",
+            "Prevention of preterm labour"
+          ]
+        },
+        {
+          "chapter": "29 Stillbirth",
+          "topics": [
+            "Aetiology",
+            "Classification of stillbirth",
+            "Diagnosis of intrauterine fetal demise and antepartum stillbirth",
+            "Follow‐up investigations",
+            "General",
+            "Lactation suppression",
+            "Legal considerations following stillbirth",
+            "Management of a future pregnancy and prevention",
+            "Management of antepartum stillbirth",
+            "Psychological aspects",
+            "Stillbirth rates"
+          ]
+        },
+        {
+          "chapter": "30 Analgesia, Anaesthesia and Resuscitation",
+          "topics": [
+            "Anaesthesia for caesarean section",
+            "Cardiopulmonary resuscitation and critical care",
+            "General",
+            "Non‐regional analgesia for labour",
+            "Pain",
+            "Regional analgesia"
+          ]
+        },
+        {
+          "chapter": "31 Puerperium and Lactation",
+          "topics": [
+            "Complications of the puerperium",
+            "General",
+            "Infant feeding",
+            "Management of breastfeeding",
+            "Management of puerperium",
+            "Physiology of lactation",
+            "Physiology of the puerperium",
+            "Suppression of lactation"
+          ]
+        },
+        {
+          "chapter": "32 Neonatal Care for Obstetricians",
+          "topics": [
+            "Antenatal and newborn screening",
+            "Antenatal communication and care plans",
+            "Anticipation and levels of neonatal care",
+            "Birth and postnatal adaptation: neonatal resuscitation",
+            "Breastfeeding",
+            "General",
+            "Important clinical conditions in neonatology",
+            "Neonatal outcome",
+            "Organization of neonatal services"
+          ]
+        },
+        {
+          "chapter": "33 Perinatal Epidemiology and Statistics",
+          "topics": [
+            "Background",
+            "Descriptive statistics",
+            "General",
+            "How we use statistics",
+            "Statistics",
+            "Study design"
+          ]
+        },
+        {
+          "chapter": "General",
+          "topics": [
+            "General"
+          ]
+        }
+      ]
+    },
+    {
+      "subject": "Uncategorized",
+      "chapters": [
+        {
+          "chapter": "General",
+          "topics": [
+            "General"
+          ]
+        }
+      ]
+    }
+  ]
+}

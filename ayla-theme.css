@@ -1,0 +1,129 @@
+/* AYLA GYNO — a quiet rose palette with accessible light and dark surfaces. */
+:root {
+  --bg: #fff7fa;
+  --panel: #ffffff;
+  --surface: #ffffff;
+  --surface-hover: #fff0f5;
+  --surface-strong: #f7e5ed;
+  --border: #edd5df;
+  --border-strong: #cfa6b8;
+  --border-glow: rgba(166, 43, 91, .18);
+  --text: #3b2030;
+  --text2: #69515f;
+  --text-muted: #786472;
+  --primary: #a42b5b;
+  --primary-light: #ba3b6d;
+  --primary-dark: #862148;
+  --primary-rgb: 164, 43, 91;
+  --primary-soft: #fce9f1;
+  --primary-glow: rgba(164, 43, 91, .14);
+  --accent: #925282;
+  --accent-light: #a16391;
+  --accent-glow: rgba(146, 82, 130, .12);
+  --success: #216849;
+  --success-soft: #edf7f1;
+  --danger: #b42f42;
+  --danger-soft: #fff0f2;
+  --warning: #81540b;
+  --glass-rgb: 255, 255, 255;
+  --shadow: 0 4px 20px rgba(89, 35, 59, .045);
+  --shadow-lg: 0 12px 36px rgba(89, 35, 59, .10);
+  --glow-primary: none;
+  --glow-accent: none;
+  --ui-icon-accent: #a42b5b;
+  --ui-icon-soft: #fce9f1;
+  --ui-icon-outline: #edc8d8;
+  --font: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.dark-mode {
+  --bg: #20171e;
+  --panel: #2c2029;
+  --surface: #2c2029;
+  --surface-hover: #3a2935;
+  --surface-strong: #49303f;
+  --border: #503b48;
+  --border-strong: #89687b;
+  --border-glow: rgba(246, 174, 204, .20);
+  --text: #fff1f7;
+  --text2: #e2c6d4;
+  --text-muted: #c6a9b9;
+  --primary: #f3adcc;
+  --primary-light: #ffc6df;
+  --primary-dark: #ad3e70;
+  --primary-rgb: 243, 173, 204;
+  --primary-soft: #4b2c3c;
+  --primary-glow: rgba(243, 173, 204, .13);
+  --accent: #dcadd0;
+  --accent-light: #efc7e4;
+  --accent-glow: rgba(220, 173, 208, .12);
+  --success: #9bdfb8;
+  --success-soft: #243a2e;
+  --danger: #ffb1bd;
+  --danger-soft: #482931;
+  --warning: #f3d397;
+  --glass-rgb: 44, 32, 41;
+  --shadow: 0 4px 20px rgba(0, 0, 0, .12);
+  --shadow-lg: 0 12px 36px rgba(0, 0, 0, .24);
+  --ui-icon-accent: #f3adcc;
+  --ui-icon-soft: #4b2c3c;
+  --ui-icon-outline: #74455c;
+}
+html { direction: ltr; }
+body { background: var(--bg); color: var(--text); }
+body::before, body::after { display: none; }
+.app-header { background: rgba(var(--glass-rgb), .97); box-shadow: 0 2px 12px rgba(89, 35, 59, .04); }
+.brand-block { flex: 1 1 210px; }
+.brand-icon { background: #fff7fa; border-color: var(--border); border-radius: 14px; }
+.brand-name { font-weight: 800; letter-spacing: -.5px; }
+.brand-name small { font-size: .64rem; font-weight: 550; letter-spacing: .1px; color: var(--text2); }
+.edition-label { font-weight: 700; color: var(--primary); }
+.offline-badge { font-weight: 550; }
+.main-content > .card:first-child { border-top: 3px solid var(--border-strong); }
+.card { border-color: var(--border); }
+.card-header { color: var(--text); font-weight: 750; }
+.card-header > .ui-icon { color: var(--primary); background: var(--primary-soft); }
+.stat-card { background: var(--bg); }
+.stat-value { color: var(--primary); }
+.btn-primary, .btn-accent { background: var(--primary); border-color: var(--primary); color: #fff; }
+.btn-primary:hover, .btn-accent:hover { background: var(--primary-dark); border-color: var(--primary-dark); color: #fff; }
+.dark-mode .btn-primary, .dark-mode .btn-accent { background: var(--primary); border-color: var(--primary); color: #351b2b; }
+.dark-mode .btn-primary:hover, .dark-mode .btn-accent:hover { background: var(--primary-light); border-color: var(--primary-light); color: #351b2b; }
+.btn-outline:hover { color: var(--primary); border-color: var(--primary); background: var(--primary-soft); }
+.header-actions .btn-icon:hover { color: var(--primary); background: var(--primary-soft); border-color: var(--ui-icon-outline); }
+.nav-item.active { color: var(--primary); background: var(--primary-soft); }
+.bottom-nav { box-shadow: 0 -4px 18px rgba(89, 35, 59, .05); }
+.option-btn.selected .option-label { color: #fff; }
+.dark-mode .option-btn.selected .option-label { color: #351b2b; }
+.option-btn.correct .option-label, .option-btn.wrong .option-label { color: #fff; }
+.dark-mode .option-btn.correct .option-label, .dark-mode .option-btn.wrong .option-label { color: var(--panel); }
+.progress-fill { background: var(--primary); }
+.subject-card:hover, .book-card:hover { border-color: var(--primary); background: var(--primary-soft); }
+#modalOverlay { background: rgba(38, 18, 31, .56); }
+#entResumePanel { background: var(--panel) !important; color: var(--text); box-shadow: var(--shadow-lg) !important; }
+input, select, textarea { caret-color: var(--primary); }
+::selection { background: var(--primary-soft); color: var(--text); }
+@media (max-width: 480px) {
+  .brand-block { flex-basis: 196px; }
+  .brand-name { font-size: 1.12rem; }
+  .brand-name small { max-width: 210px; white-space: normal; line-height: 1.5; }
+  .main-content { padding-top: 20px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+
+/* Selected concept 02: the maternal A identity, with an accessible dark version. */
+.brand-block { flex: 1 1 204px; min-width: 0; }
+.brand-block .logo { display: block; width: 186px; max-width: 100%; height: 72px; margin: -7px 0 -2px; line-height: 1; }
+.brand-wordmark { display: block; width: 100%; height: 100%; object-fit: contain; object-position: left center; }
+.brand-wordmark-dark { display: none; }
+.dark-mode .brand-wordmark-light { display: none; }
+.dark-mode .brand-wordmark-dark { display: block; }
+.brand-subtitle { margin: 0; color: var(--text2); font-size: .64rem; font-weight: 550; line-height: 1.5; letter-spacing: .05px; }
+.brand-block .offline-badge { margin: 3px 0 0; font-size: .66rem; }
+.brand-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+@media (max-width: 480px) {
+  .brand-block { flex: 1 1 144px; }
+  .brand-block .logo { width: 148px; height: 62px; margin-top: -6px; }
+  .brand-subtitle { max-width: 175px; font-size: .6rem; }
+}
